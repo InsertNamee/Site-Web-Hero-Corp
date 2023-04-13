@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'calibri';
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: "Anton";
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 1920px;
+
+    background-color: #d3d3d3;
+    background-repeat: round;
+
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 1.4em;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 8em;
+    padding-left: 28%;
+    background-color: #eeeeee;
+}
+
+footer .footer_text {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+
+#container {
+    border: solid black 1px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#container .logo {
+    display: flex;
+    margin-left: 40%;
+    color: yellowgreen;
+}
+
+#container .title {
+    margin-top: 1.5em;
+    border-top: solid #92020b 5px;
+    border-bottom: solid #92020b 5px;
+}
+
+.title .text {
+    display: flex;
+    margin-left: 35%;
+}
+
+#container .title .frame {
+    margin-left: 2%;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+    background-color: black;
+    color: white;
+    border: solid black 15px;
+}
+
+#container .main {
+    background-color: #eeeeee;
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.main .présentation {
+    margin-left: 40%;
+}
+
+.présentation .présentation_logo {
+    margin-top: 3em;
+    margin-left: 3%;
+    
+}
+
+.présentation .content {
+    margin-left: 10%;
+    margin-right: 1%;
+}
+
+.content{
+    margin-top: 3em;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.content .présentation_text {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid black 3px;
+}
+
+.content .présentation_text span {
+    font-weight: bold;
+}
+
+.content .présentaiton_desc {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.content .synopsis_title {
+    color: #8b0000;
+    margin-left: 43%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.content .synopsis_text {
+    font-size: 1.3em;
+}
+
+.acteurs .acteurs_title {
+    margin-top: 2em;
+    margin-left: 38%;
+    margin-bottom: 2em;
+}
+
+.acteurs .acteurs_link button {
+    margin-left: 10%;
+    height: 1.5em;
+    width: 80%;
+    margin-top: 0.3em;
+    color: #8b0000;
+    font-size: 2em;
+    background-color: #eeeeee;
+    border-radius: 2em;
+    border: transparent;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.acteurs .acteurs_link button:hover {
+    color: black;
+    background-color: #92020b;
+}
+
+.images {
+    margin-left: 33%;
+    margin-top: 2em;
+    width: 90%;
+}
+
+.images .image1 {
+    margin-top: 2em;
+    width: 40%;
+    border: solid #cccccc 3px;
+}
+
+.image1 .photo1 {
+    margin-left: 4em;
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+}
+
+.image1 .title1 {
+    text-align: center;
+    color: #8b0000;
+}
+
+.image1 .text1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 3em;
+}
